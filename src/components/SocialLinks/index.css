@@ -1,0 +1,38 @@
+.social-links-container{
+    list-style-type: none;
+    padding-left:40px;
+    align-self: flex-end;
+    padding-top:300px;
+    display: flex;
+    flex-direction: column;
+}
+.social-icon{
+    font-size: 22px;
+    text-align: center;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-top:4px;
+    margin-bottom:5px;
+}
+
+.icon-dark{
+    border: 2px solid black;
+    color:black;
+}
+.icon-light{
+    border: 2px solid #fff;
+    color:#fff;
+}
+
+
+@media (max-width:768px){
+    .social-links-container{
+        padding-top: 5px;
+        padding-left: 0px;
+        order:3;
+        flex-direction: row;
+        gap:10px;
+    }
+}
